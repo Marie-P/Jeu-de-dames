@@ -15,7 +15,7 @@ class View {
 	 */
 	setDraughtBoardSize(model, canvas) {
 		if(window.innerWidth < 600 || window.innerHeight < 600) {
-			this.setSize(model, canvas, 300);
+			this.setSize(model, canvas, 500);
 		} else {
 			this.setSize(model, canvas, 500);
 		}
