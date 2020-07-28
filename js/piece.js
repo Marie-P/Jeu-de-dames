@@ -4,7 +4,7 @@ class Piece {
 		this.iPiece = isPiece;
 		this.x = x;
 		this.y = y;
-		this.vx = 0.5;
-		this.vy = 0.5;
+		this.vx = 1;
+		this.vy = 1;
 	}
 }
